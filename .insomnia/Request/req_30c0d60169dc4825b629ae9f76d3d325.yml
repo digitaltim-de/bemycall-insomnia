@@ -1,0 +1,174 @@
+_id: req_30c0d60169dc4825b629ae9f76d3d325
+type: Request
+parentId: fld_8e38af55c3d0452187caeb4614732c11
+modified: 1638964121756
+created: 1611379047377
+url: "{{ _.url }}/api/payment/paypal/hook"
+name: Payment Paypal Hook
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"id": "WH-64H05376006998705-5HE9504855456440S",
+    	"event_version": "1.0",
+    	"create_time": "2020-12-19T02:59:33.895Z",
+    	"resource_type": "payment",
+    	"event_type": "PAYMENTS.PAYMENT.CREATED",
+    	"summary": "Checkout payment is created and approved by buyer",
+    	"resource": {
+    		"update_time": "2020-12-19T02:59:13Z",
+    		"create_time": "2020-12-19T02:58:46Z",
+    		"links": [
+    			{
+    				"href": "https://api.sandbox.paypal.com/v1/payments/payment/PAYID-L7OWYZQ2HJ62481KF597883T",
+    				"rel": "self",
+    				"method": "GET"
+    			}
+    		],
+    		"id": "PAYID-L7OWYZQ2HJ62481KF597883T",
+    		"state": "approved",
+    		"transactions": [
+    			{
+    				"amount": {
+    					"total": "10.00",
+    					"currency": "USD",
+    					"details": {
+    						"subtotal": "10.00",
+    						"shipping": "0.00",
+    						"insurance": "0.00",
+    						"handling_fee": "0.00",
+    						"shipping_discount": "0.00"
+    					}
+    				},
+    				"payee": {
+    					"merchant_id": "EJ5KSQGAUHWFU",
+    					"email": "sb-ydcuu4119502@business.example.com"
+    				},
+    				"description": "BEMYCALL.COM CHARGING",
+    				"invoice_number": "6f1e026bef99f415b8bdda203768fd282",
+    				"item_list": {
+    					"shipping_address": {
+    						"recipient_name": "Burhan Kundakcioglu",
+    						"line1": "Kölner Str. 43a",
+    						"city": "Nürnberg",
+    						"state": "",
+    						"postal_code": "90425",
+    						"country_code": "DE",
+    						"default_address": false,
+    						"preferred_address": false,
+    						"primary_address": false,
+    						"disable_for_transaction": false
+    					}
+    				},
+    				"related_resources": [
+    					{
+    						"order": {
+    							"id": "O-1X316441D13289524",
+    							"create_time": "2020-12-19T02:59:13Z",
+    							"update_time": "2020-12-19T02:59:13Z",
+    							"amount": {
+    								"total": "10.00",
+    								"currency": "USD",
+    								"details": {
+    									"subtotal": "10.00",
+    									"shipping": "0.00",
+    									"insurance": "0.00",
+    									"handling_fee": "0.00",
+    									"shipping_discount": "0.00"
+    								}
+    							},
+    							"state": "PENDING",
+    							"reason_code": "ORDER",
+    							"links": [
+    								{
+    									"href": "https://api.sandbox.paypal.com/v1/payments/orders/O-1X316441D13289524",
+    									"rel": "self",
+    									"method": "GET"
+    								},
+    								{
+    									"href": "https://api.sandbox.paypal.com/v1/payments/payment/PAYID-L7OWYZQ2HJ62481KF597883T",
+    									"rel": "parent_payment",
+    									"method": "GET"
+    								},
+    								{
+    									"href": "https://api.sandbox.paypal.com/v1/payments/orders/O-1X316441D13289524/do-void",
+    									"rel": "void",
+    									"method": "POST"
+    								},
+    								{
+    									"href": "https://api.sandbox.paypal.com/v1/payments/orders/O-1X316441D13289524/authorize",
+    									"rel": "authorization",
+    									"method": "POST"
+    								},
+    								{
+    									"href": "https://api.sandbox.paypal.com/v1/payments/orders/O-1X316441D13289524/capture",
+    									"rel": "capture",
+    									"method": "POST"
+    								}
+    							],
+    							"parent_payment": "PAYID-L7OWYZQ2HJ62481KF597883T"
+    						}
+    					}
+    				]
+    			}
+    		],
+    		"intent": "order",
+    		"payer": {
+    			"payment_method": "paypal",
+    			"status": "UNVERIFIED",
+    			"payer_info": {
+    				"email": "burhan.k@digitaltim.de",
+    				"first_name": "Burhan",
+    				"last_name": "Kundakcioglu",
+    				"payer_id": "P5XCPFGK5HD4G",
+    				"shipping_address": {
+    					"recipient_name": "Burhan Kundakcioglu",
+    					"line1": "Kölner Str. 43a",
+    					"city": "Nürnberg",
+    					"state": "",
+    					"postal_code": "90425",
+    					"country_code": "DE",
+    					"default_address": false,
+    					"preferred_address": false,
+    					"primary_address": false,
+    					"disable_for_transaction": false
+    				},
+    				"phone": "17661838332",
+    				"country_code": "DE",
+    				"business_name": "Digitaltim"
+    			}
+    		},
+    		"cart": "1AF122518J7659256"
+    	},
+    	"links": [
+    		{
+    			"href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-64H05376006998705-5HE9504855456440S",
+    			"rel": "self",
+    			"method": "GET"
+    		},
+    		{
+    			"href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-64H05376006998705-5HE9504855456440S/resend",
+    			"rel": "resend",
+    			"method": "POST"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4a4037cfd89749cf830791efe5c5304e
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
+  disabled: true
+metaSortKey: -1608161886576.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

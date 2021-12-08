@@ -1,0 +1,46 @@
+_id: req_c6256edf1fb14abcbdb8556c71bf2cc3
+type: Request
+parentId: fld_4acf5679354b4cab92d4199c22ffa3f4
+modified: 1638964092382
+created: 1583970384961
+url: "{{ url  }}/api/web/user/address/add"
+name: /api/web/user/address/add
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "id-demo-2011",
+    	"name": "name-demo-3108",
+    	"firstname": "firstname-demo-9378",
+    	"surname": "surname-demo-6613",
+    	"street": "street-demo-4652",
+    	"number": "12a332",
+    	"postal_code": "postal_code-demo-1674",
+    	"city": "city-demo-4793",
+    	"country": "country-demo-1373",
+    	"country_code": "country_code-demo-1585",
+    	"status": "status-demo-5383",
+    	"created_at": "created_at-demo-9638",
+    	"updated_at": "updated_at-demo-4802",
+    	"del": "del-demo-5058",
+    	"user_id": "user_id-demo-5063"
+    }
+parameters: []
+headers:
+  - id: pair_2f1a33b4735e49b4b888a039c6ffbe52
+    name: Content-Type
+    value: application/json
+    disabled: true
+authentication:
+  token: "{{ _.webtoken }}"
+  type: bearer
+metaSortKey: -1598257423759.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

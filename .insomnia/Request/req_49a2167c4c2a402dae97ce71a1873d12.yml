@@ -1,0 +1,28 @@
+_id: req_49a2167c4c2a402dae97ce71a1873d12
+type: Request
+parentId: fld_d667aa3dc28546d9b8120bc729289f03
+modified: 1638964010816
+created: 1613164090104
+url: "{{ url  }}/api/web/projects"
+name: Project
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8df7231234924d79955f0c0f57b2b6a5
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
+metaSortKey: -1612648467511.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

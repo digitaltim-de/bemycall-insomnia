@@ -1,0 +1,33 @@
+_id: req_6d8cb5675f0c4a8bb39a871714ce3823
+type: Request
+parentId: fld_621155d038c540a6abaad784ac01c6bf
+modified: 1633697525851
+created: 1588448800689
+url: "{{ _.url }}/api/room/create"
+name: Create Room (works)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"templateId": "ffde18c2-68a1-4cdb-9eb1-dc74d5f8b61a",
+    	"maxUser": 2
+    }
+parameters: []
+headers:
+  - id: pair_e6f635eb0612439ead33ac6a0fcdb106
+    name: Content-Type
+    value: application/json
+authentication:
+  disabled: false
+  token: "{{ _.apiKey }}"
+  type: bearer
+metaSortKey: -1611412807256
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

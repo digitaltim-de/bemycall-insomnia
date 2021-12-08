@@ -1,0 +1,26 @@
+_id: req_003cadb1c10f4828b2177248368cf8fc
+type: Request
+parentId: fld_014cd1c334b84912af31e8af98d53a38
+modified: 1611288173381
+created: 1583901651903
+url: "{{ url  }}/api/create_demo_data/insert/address"
+name: /create_demo_data/insert/{tablename}
+description: This generating a Demo Dump Data for Test Suites
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_4b6fc3b5470248b8a05e4f6f90ce2d93
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1582340650760
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

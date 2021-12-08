@@ -1,0 +1,31 @@
+_id: req_87c4611e29604b75a9f2844d424edc3c
+type: Request
+parentId: fld_a0907276d571433b94effca7e87a5c8d
+modified: 1601663916383
+created: 1601663856345
+url: "{{ url  }}/api/test"
+name: /test
+description: Return Information about the current logged in User Session
+method: GET
+body:
+  mimeType: application/xml
+  text: |-
+    {
+    	
+    }
+parameters: []
+headers:
+  - id: pair_ce35f99a7a6e414080e842278dc5a480
+    name: Content-Type
+    value: application/xml
+authentication:
+  token: bea
+  type: bearer
+metaSortKey: -1583122755298.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_cc2ff276d1e64f4f81306f14952f7e83
+type: Request
+parentId: fld_4acf5679354b4cab92d4199c22ffa3f4
+modified: 1613179801976
+created: 1613179793280
+url: "{{ url  }}/api/web/me/delete"
+name: /api/web/me/delete
+description: Return Information about the current logged in User Session
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_ce35f99a7a6e414080e842278dc5a480
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{ _.webtoken }}"
+  type: bearer
+  disabled: false
+metaSortKey: -1598257423834.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

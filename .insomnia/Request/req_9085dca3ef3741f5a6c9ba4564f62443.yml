@@ -1,0 +1,33 @@
+_id: req_9085dca3ef3741f5a6c9ba4564f62443
+type: Request
+parentId: fld_2df797be8ff443f8bb56f4507867e59f
+modified: 1638964122645
+created: 1601012509257
+url: "{{ url  }}/api/login"
+name: /login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "burhan.k@me.com",
+      "password": "1234567"
+    }
+parameters: []
+headers:
+  - id: pair_d1c2111a3e8045a99693f717885adf65
+    name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1598257423659.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

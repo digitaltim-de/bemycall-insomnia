@@ -1,0 +1,32 @@
+_id: req_73bd8647d2924849ac9331012ef793bd
+type: Request
+parentId: fld_621155d038c540a6abaad784ac01c6bf
+modified: 1631574016736
+created: 1588527258145
+url: "{{ url  }}/api/room/status"
+name: Status Room (works)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "647f1c8b-9986-4bcc-8b8b-9d0bb3cfdd40"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_263d30286c804bf1bfb630e2f9dd4da2
+authentication:
+  type: bearer
+  token: "{{ _.apiKey }}"
+  disabled: false
+metaSortKey: -1611412807243.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_e052f78b82d340a197a245c17c68679c
+type: Request
+parentId: fld_cf6c6c545ef64377815945be210e9cd8
+modified: 1638963972708
+created: 1608067316960
+url: "{{ _.url }}/api/web/room/create"
+name: /api/web/room/create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Freelancer",
+    	"templateId": "{{ _.templateId }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_660e3bc8983f4b45a41d181a10a60e9c
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
+metaSortKey: -1603161734994.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

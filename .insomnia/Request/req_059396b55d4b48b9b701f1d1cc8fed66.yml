@@ -1,0 +1,32 @@
+_id: req_059396b55d4b48b9b701f1d1cc8fed66
+type: Request
+parentId: fld_621155d038c540a6abaad784ac01c6bf
+modified: 1632864152729
+created: 1589502192684
+url: "{{ url  }}/api/room/close"
+name: Close Room (works)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "e0401948-ab4d-4a93-9a08-70a5af5f508c"
+    }
+parameters: []
+headers:
+  - id: pair_e6f635eb0612439ead33ac6a0fcdb106
+    name: Content-Type
+    value: application/json
+authentication:
+  disabled: false
+  token: "{{ _.apiKey }}"
+  type: bearer
+metaSortKey: -1611412807249.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

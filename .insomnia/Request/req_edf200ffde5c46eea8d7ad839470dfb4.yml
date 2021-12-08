@@ -1,0 +1,66 @@
+_id: req_edf200ffde5c46eea8d7ad839470dfb4
+type: Request
+parentId: fld_22b8a41288de43fb92c64ac67144d9e8
+modified: 1612450021832
+created: 1612449776299
+url: https://cloud.apizee.com/api/conferences
+name: Creating a room by a concurrent (apirtc.com)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"bearer_token": "755e140d1833d2b1634673aecc4ce30b"
+    }
+parameters:
+  - name: offset
+    value: "0"
+    disabled: false
+    id: pair_1f16443ba18a47cfbb7ac7a14afc70c8
+  - name: limit
+    value: "20"
+    disabled: false
+    id: pair_ac30e58bd2ee436c829d32a70ac4d3a1
+  - name: orderby
+    value: date
+    disabled: false
+    id: pair_121e2311eacf47e4ba3d081d71e6f32b
+  - name: order
+    value: desc
+    disabled: false
+    id: pair_40d9cd6deb864349a9106e0540f6fbc5
+  - name: moderator
+    value: "1"
+    disabled: false
+    id: pair_67a1347d05da488780673c43422b4c51
+  - name: user
+    value: "1"
+    disabled: false
+    id: pair_18e4f3524fff412b9cfc0dadce241615
+  - name: bearer_token
+    value: 755e140d1833d2b1634673aecc4ce30b
+    description: ""
+    id: pair_c5a77988262f4018b940dfe05dd91322
+headers:
+  - name: accept
+    value: application/json
+    id: pair_40a34fd39dd54cf39b36b41f6eec1600
+  - name: bearer_token
+    value: 755e140d1833d2b1634673aecc4ce30b
+    description: ""
+    id: pair_c0d6c4b64ccf4f499854cac304910e23
+  - name: Content-Type
+    value: application/json
+    id: pair_9912709d82c64e73a9d3867dc18fdd30
+authentication:
+  type: bearer
+  token: 755e140d1833d2b1634673aecc4ce30b
+metaSortKey: -1612449776299
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

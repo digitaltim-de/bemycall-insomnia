@@ -1,0 +1,34 @@
+_id: req_d031bf11af524201932e973e4363c28a
+type: Request
+parentId: fld_8aa373a958c2488085703d5d27131dec
+modified: 1638964050308
+created: 1601775774539
+url: "{{ url  }}/api/web/apikeys"
+name: /api/web/apikeys
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - disabled: true
+    id: pair_828f3d32970d46cfa249f4cf7969fb1b
+    name: Bearer
+    value: $2y$10$mmY3K6/hAfYFnQ8j8GxNN.G6D0u9vne5TWa0WLfVBiEOc/.ympVMq
+  - id: pair_e6f635eb0612439ead33ac6a0fcdb106
+    name: Content-Type
+    value: application/json
+    disabled: true
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
+  disabled: false
+metaSortKey: -1588448800714
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

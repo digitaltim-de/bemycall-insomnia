@@ -1,0 +1,21 @@
+_id: req_dd6b4a5843cb44bf86c31b58390bbc16
+type: Request
+parentId: wrk_7a143faae4a841f492cc22eae89503df
+modified: 1632710926606
+created: 1632696063415
+url: "{{ _.url }}/watch"
+name: Watch
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1632696063415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

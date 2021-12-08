@@ -1,0 +1,25 @@
+_id: req_6d4d42df344b4baeba537dabee781a2b
+type: Request
+parentId: fld_8e38af55c3d0452187caeb4614732c11
+modified: 1638964117003
+created: 1608164917417
+url: "{{ _.url }}/api/web/payment/paypal"
+name: Pay with PayPal
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: ""
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
+metaSortKey: -1608164917562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

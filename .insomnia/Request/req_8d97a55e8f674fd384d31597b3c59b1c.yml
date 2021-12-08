@@ -1,0 +1,51 @@
+_id: req_8d97a55e8f674fd384d31597b3c59b1c
+type: Request
+parentId: fld_d667aa3dc28546d9b8120bc729289f03
+modified: 1638964009640
+created: 1613011623917
+url: "{{ url  }}/api/web/project"
+name: Project
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: logo
+      value: ""
+      id: pair_300be335c30e41e59c9496449481a58a
+      type: file
+      fileName: /Users/burhankundakcioglu/Downloads/vialantis-logo.png
+      disabled: false
+    - name: mail
+      value: info@bemy.com
+      description: ""
+      id: pair_424ad9f1014446449683af1d59e836dd
+    - name: name
+      value: Bemycall
+      description: ""
+      id: pair_2cc8223e0be440b996693ec89ae970f3
+      disabled: false
+    - name: short_name
+      value: bmy
+      description: ""
+      id: pair_43790da838a542d1b4f79a2f5cc39635
+parameters:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_9a15626c1585471483f17833383a854a
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8df7231234924d79955f0c0f57b2b6a5
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
+metaSortKey: -1612648467461.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

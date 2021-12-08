@@ -1,0 +1,21 @@
+_id: req_29fa9f198b91464185b485a062cce569
+type: Request
+parentId: fld_014cd1c334b84912af31e8af98d53a38
+modified: 1613163944709
+created: 1608160876248
+url: "{{ _.url }}/debug"
+name: Debug
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1582340650653.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_880026ded8f943bc88e9a0e60fc80656
+type: Request
+parentId: fld_621155d038c540a6abaad784ac01c6bf
+modified: 1631569050240
+created: 1630675929107
+url: "{{ url  }}/api/login"
+name: Login for Token (works)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "burhan.k@me.com",
+      "password": "1234567"
+    }
+parameters: []
+headers:
+  - id: pair_d1c2111a3e8045a99693f717885adf65
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1611412807356
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

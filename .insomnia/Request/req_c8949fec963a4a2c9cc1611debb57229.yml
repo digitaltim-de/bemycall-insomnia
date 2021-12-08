@@ -1,0 +1,48 @@
+_id: req_c8949fec963a4a2c9cc1611debb57229
+type: Request
+parentId: fld_a0907276d571433b94effca7e87a5c8d
+modified: 1600949543781
+created: 1583966420248
+url: "{{ url }}/oauth/token"
+name: /oauth/token
+description: |
+  Get Auth for become a bearer Auth Token
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - description: ""
+      id: pair_f16cc0b430234bc69877a824a626d04d
+      name: grant_type
+      value: password
+    - description: ""
+      id: pair_741fc14ec53b4b0dae95c183399e6ee0
+      name: client_id
+      value: "10"
+    - description: ""
+      id: pair_e7012ee4870a429b8d9afd496e12a38c
+      name: username
+      value: burhan.k@me.com
+    - description: ""
+      disabled: false
+      id: pair_899a85b3e14f4892aeb1ec9ac40367fe
+      name: password
+      value: "1234"
+    - description: ""
+      id: pair_28b69a05f9dd4f548612acb671d93cec
+      name: client_secret
+      value: lGq6Bbll4F3vS5WpiCWmgAFZyvR0EhQLlqqHyZ5f
+parameters: []
+headers:
+  - id: pair_582bbf4dccd24c198c9f3d3000487f4a
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1583904859862
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

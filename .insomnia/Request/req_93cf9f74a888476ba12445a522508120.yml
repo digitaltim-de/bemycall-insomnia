@@ -1,0 +1,32 @@
+_id: req_93cf9f74a888476ba12445a522508120
+type: Request
+parentId: fld_2df797be8ff443f8bb56f4507867e59f
+modified: 1638964123248
+created: 1583944563918
+url: "{{ url  }}/api/register"
+name: /register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Digitaltim",
+      "email": "burhan.k@me.com",
+      "email_verified_at": "",
+      "password": "1234567"
+    }
+parameters: []
+headers:
+  - id: pair_d1c2111a3e8045a99693f717885adf65
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1598257423609.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

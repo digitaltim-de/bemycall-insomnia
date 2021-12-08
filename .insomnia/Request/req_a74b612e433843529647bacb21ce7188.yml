@@ -1,0 +1,21 @@
+_id: req_a74b612e433843529647bacb21ce7188
+type: Request
+parentId: fld_014cd1c334b84912af31e8af98d53a38
+modified: 1584029895308
+created: 1583922632762
+url: "{{ url  }}/api/doc"
+name: /doc
+description: Returns the Swagger Documentation JSON File
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1582340650647.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

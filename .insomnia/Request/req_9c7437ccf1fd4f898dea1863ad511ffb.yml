@@ -1,0 +1,34 @@
+_id: req_9c7437ccf1fd4f898dea1863ad511ffb
+type: Request
+parentId: fld_621155d038c540a6abaad784ac01c6bf
+modified: 1631569129804
+created: 1630675945245
+url: "{{ url  }}/api/web/apikeys/burhan"
+name: Create API Key (works)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - disabled: true
+    id: pair_828f3d32970d46cfa249f4cf7969fb1b
+    name: Bearer
+    value: $2y$10$mmY3K6/hAfYFnQ8j8GxNN.G6D0u9vne5TWa0WLfVBiEOc/.ympVMq
+  - id: pair_e6f635eb0612439ead33ac6a0fcdb106
+    name: Content-Type
+    value: application/json
+    disabled: true
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
+  disabled: false
+metaSortKey: -1611412807318.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

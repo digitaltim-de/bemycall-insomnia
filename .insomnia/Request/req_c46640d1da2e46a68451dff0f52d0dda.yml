@@ -1,0 +1,23 @@
+_id: req_c46640d1da2e46a68451dff0f52d0dda
+type: Request
+parentId: fld_621155d038c540a6abaad784ac01c6bf
+modified: 1631571435414
+created: 1608066811039
+url: "{{ _.url }}/api/rooms"
+name: List all Rooms (works)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.apiKey }}"
+metaSortKey: -1611412807306
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

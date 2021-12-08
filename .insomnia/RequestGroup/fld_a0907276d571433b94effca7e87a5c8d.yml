@@ -1,0 +1,10 @@
+_id: fld_a0907276d571433b94effca7e87a5c8d
+type: RequestGroup
+parentId: fld_014cd1c334b84912af31e8af98d53a38
+modified: 1613163962649
+created: 1583942860469
+name: Basic Auth as Helper
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1582340650810

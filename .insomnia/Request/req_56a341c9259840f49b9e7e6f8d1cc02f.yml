@@ -1,0 +1,23 @@
+_id: req_56a341c9259840f49b9e7e6f8d1cc02f
+type: Request
+parentId: fld_34ef94280b7a4e95bea8fc109455af2f
+modified: 1638964310201
+created: 1638964257879
+url: "{{ _.url }}/api/web/documentation"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
+metaSortKey: -1638964257879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

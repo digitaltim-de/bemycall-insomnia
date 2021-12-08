@@ -1,0 +1,36 @@
+_id: req_216d59b55bb24c1d96e5bed44e09ec7f
+type: Request
+parentId: fld_621155d038c540a6abaad784ac01c6bf
+modified: 1631570412062
+created: 1611412807206
+url: "{{ _.url }}/api/invite"
+name: Invite to Room
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"recipient": ["004917661838332","02342432423432"],
+    	"inviteType": "sms",
+    	"inviteText": "Besprechung Vialantis Updates",
+     "id": "4JlGuwsrZocaVmCMWnC1rpYzLodLdkmS",
+      "roomHash": "ufXJ7hizXB61Rh8WYcuPos6xbbqbRVDz"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7ab814ae21754401a5995dbe0cc25a0a
+authentication:
+  type: bearer
+  token: "{{ _.apiKey }}"
+  disabled: false
+metaSortKey: -1611412807206
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
