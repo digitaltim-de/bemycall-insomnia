@@ -1,0 +1,23 @@
+_id: req_f1d2a8b568a34c1d84593bf14c8e3c31
+type: Request
+parentId: fld_4513f41a987d4a6b86dea5ab8368e054
+modified: 1638986602694
+created: 1638986558690
+url: "{{ _.url }}/api/web/template/389edce8-8664-4a4a-bf1f-5b5927a8110e"
+name: Delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
+metaSortKey: -1638945483583.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

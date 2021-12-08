@@ -1,16 +1,18 @@
-_id: req_56a341c9259840f49b9e7e6f8d1cc02f
+_id: req_235d316466e44197b5138bbb01208fdc
 type: Request
-parentId: fld_34ef94280b7a4e95bea8fc109455af2f
-modified: 1638972399885
-created: 1638964257879
-url: "{{ _.url }}/api/web/documentation"
+parentId: fld_4513f41a987d4a6b86dea5ab8368e054
+modified: 1638986590846
+created: 1638984870292
+url: "{{ _.url }}/api/web/templates"
 name: List
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.webtoken }}"
 metaSortKey: -1638964257879
 isPrivate: false
 settingStoreCookies: true
